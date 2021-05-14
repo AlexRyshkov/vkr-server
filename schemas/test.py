@@ -9,3 +9,4 @@ class TestSchema(ma.SQLAlchemySchema):
     id = ma.auto_field()
     name = ma.auto_field()
     unit = ma.auto_field()
+    type = ma.auto_field()

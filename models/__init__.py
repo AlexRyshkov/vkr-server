@@ -7,3 +7,4 @@ from models.patient import Patient
 from models.sample_result import SampleResult
 from models.test import Test
 from models.user import User
+from models.test_normal_value import TestNormalValue
