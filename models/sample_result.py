@@ -8,4 +8,4 @@ class SampleResult(db.Model):
     sample = db.relationship('Sample', back_populates='results')
     test_id = db.Column(db.Integer, db.ForeignKey('tests.id'))
     test = db.relationship('Test')
-    result = db.Column(db.String(50))
+    result = db.Column('result', db.Float, nullable=False)
